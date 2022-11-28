@@ -2,6 +2,8 @@ body {
   font-family: sans-serif;
   background-attachment: fixed;
   background-size: cover;
+  background-image: url(./hatter.jpg) no-repeat center center;
+  
 }
 
 #content {
@@ -57,4 +59,28 @@ table {
 table {
   margin-right: 20px;
   background-color: rgba(227, 225, 233, 0.3);
+}
+th{
+  background-color: #0A82F7;
+  color: white;
+}
+
+ table{
+border: solid ;
+}
+
+td th{
+  border: 1px solid black;
+  text-align: center;
+  padding: 15px;
+
+}
+a{
+  color:black;
+  text-decoration: none;
+}
+
+a:hover{
+  color: yellow;
+  text-decoration: none;
 }
